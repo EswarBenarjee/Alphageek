@@ -1,1 +1,73 @@
-Hi
+html {
+    scroll-behavior: smooth;
+}
+body {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #ffffff;
+  background: url("https://media.giphy.com/media/jNYUeDwoUoloEswJm8/giphy.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+span {
+    color: black;
+}
+/* FORM */
+form {
+    background-color: blueviolet;
+    background: linear-gradient(direction, purple, red, blue);
+    position: relative;
+    text-align: left;
+    margin-left: 16vw;
+    padding: 5vh 0 10vh 5vw;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+    width: 70vw;
+    margin-bottom: 5vh;
+    border-radius: 3.5vw;
+}
+form div {
+    margin-bottom: 1.2vh;
+}
+form input, form select {
+    border-radius: 7px;
+    border: 0;
+    width: 90%;
+    padding: 10px;
+}
+form span {
+    color: red;
+}
+form input.submit {
+    width: 30%;
+    background: #0048ff;
+    background-image: -webkit-linear-gradient(top, #0048ff, #392bb8);
+    background-image: -moz-linear-gradient(top, #0048ff, #392bb8);
+    background-image: -ms-linear-gradient(top, #0048ff, #392bb8);
+    background-image: -o-linear-gradient(top, #0048ff, #392bb8);
+    background-image: linear-gradient(to bottom, #0048ff, #392bb8);
+    text-shadow: 1px 1px 3px #666666;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 0.5vh 10px 5px 10px;
+    text-decoration: none;
+    border: 0;
+    position: absolute;
+    left: 35%;
+    bottom: 5%;
+  }
+
+  .submit:hover {
+    background: #ff00ff;
+    background-image: -webkit-linear-gradient(top, #ff00ff, #392bb8);
+    background-image: -moz-linear-gradient(top, #ff00ff, #392bb8);
+    background-image: -ms-linear-gradient(top, #ff00ff, #392bb8);
+    background-image: -o-linear-gradient(top, #ff00ff, #392bb8);
+    background-image: linear-gradient(to bottom, #ff00ff, #392bb8);
+    text-decoration: none;
+  }
